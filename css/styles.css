@@ -1,0 +1,44 @@
+/* TODO: SET FONT AND TYPOGRAPHY*/
+/* TODO: FIGURE OUT WHY DIV WITH IMAGE HAVE UNEVEN BORDER RADIUS */
+
+body {
+    background-color: rgb(216, 194, 194);
+}
+
+.main {
+    width: 15vw;
+    background-color: white;
+    border-radius: 4%;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 15px 15px 10px rgba(0,0,0,0.1);
+}
+
+.qr-container {
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    object-position: center;
+    margin: 5px;
+}
+
+.qr {
+    width: 100%;
+    object-fit: cover;
+}
+
+.description {
+    text-align: center;
+    margin: 10px auto;
+    padding: 0 5%;
+}
+
+.description-title {
+    font-weight: bold;
+}
+
+.description-text {
+    font-size: 13px;
+    color: grey;
+}
